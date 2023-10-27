@@ -30,7 +30,7 @@ In this project, period **(ARR+1 = 99+1)** will be 100, prescaler will be 84 **(
 
 As calculated above, the max frequency must be **10000Hz**. It goes from 0 to 10000 according to, led brightness.
 
-After calculation, the timer 4 must be adjusted in registers. It is similar previous timer example
+After calculation, the timer 4 must be adjusted in registers. It is similar with [previous timer example](https://github.com/yasinsulhan/stm32f4-timer-interrupt-with-register)
 
 The capture compare output 1,2,3,4 (for PD12, PD13, PD14, PD15) must be selected in `CCMRx` registers. Also these must be PWM mode by using the same registers. 
 
